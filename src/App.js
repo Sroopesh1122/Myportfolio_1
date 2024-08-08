@@ -63,7 +63,6 @@ const App = () => {
   }, []);
 
   const handleSectionInView = (sectionKey) => {
-    console.log(`Section ${sectionKey} is in the viewport!`);
     setSelectedMenu(sectionKey);
   };
   return (

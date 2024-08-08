@@ -5,51 +5,11 @@ import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import Splitting from 'splitting';
 import { authorName, heroTitle_1, heroTitle_2 } from "../Data/AllData";
+import { PiFileTextFill } from "react-icons/pi";
 
 gsap.registerPlugin(ScrollToPlugin);
 
 const HeroPage = () => {
-
-  // const contextData = useContext(DataContext);
-
-
-  // ScrollTrigger.create({
-  //   trigger: ".hero-section",
-  //   start: "top 10%",
-  //   onEnter: () => {
-  //     contextData.handleMenuClick(0)
-  //   }
-  // });
-  
-  // ScrollTrigger.create({
-  //   trigger: ".about_page",
-  //   start: "top 10%",
-  //   onEnter: () => {
-  //     contextData.handleMenuClick(1)
-  //   }
-  // });
-  
-  // ScrollTrigger.create({
-  //   trigger: ".skills_page",
-  //   start: "top 10%",
-  //   onEnter: () => {
-  //     contextData.handleMenuClick(2)
-  //   }
-  // });
-  // ScrollTrigger.create({
-  //   trigger: ".project_page",
-  //   start: "top 10%",
-  //   onEnter: () => {
-  //     contextData.handleMenuClick(3)
-  //   }
-  // });
-  // ScrollTrigger.create({
-  //   trigger: ".contact_page",
-  //   start: "top 10%",
-  //   onEnter: () => {
-  //     contextData.handleMenuClick(4)
-  //   }
-  // });
 
   useEffect(() => {
 
@@ -139,7 +99,7 @@ const HeroPage = () => {
             <div className="invite-box">{titleContent}</div>
           </div>
           <div className="mt-3">
-            <button className="btn download-btn">Download Resume</button>
+          <a href="https://drive.google.com/file/d/18D5qRO5-WArRx8VxtycxBAX7Ksbkkx3M/view?usp=sharing" rel="noreferrer" target="_blank" download={true} className='btn download-btn flex items-center w-fit justify-between'><PiFileTextFill className='btn-icon'/>Download Resume</a>
           </div>
         </div>
       </div>
