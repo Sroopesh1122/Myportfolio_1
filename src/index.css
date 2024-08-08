@@ -200,12 +200,12 @@ body {
   height: 100%;
   background-color:#001219; 
   top: 0;
-  left:100%;
+  left:200%;
 }
 
-.title:last-child .title-overlay{ 
+/* .title:last-child .title-overlay{ 
   left: -100%;
-}
+} */
 
 .hero-section-img .hero-img{
   width: 500px;
@@ -750,8 +750,11 @@ body {
 @media (max-width: 950px)
 {
   .menu-bar {
-    height: 5vh;
+    height: 8vh;
     padding: 0 10px;
+  }
+  .title{
+    overflow: hidden;
   }
   .menu-bar h1{
     font-size: 1.2rem;
@@ -877,7 +880,7 @@ body {
       padding: 20px;
     }
     .titles{
-      margin-bottom: 250px;
+      margin-bottom: 150px !important;
     }
     .about-info{
       display: flex;
@@ -961,7 +964,7 @@ body {
     }
 
     .info-title .invite-box-wrapper{
-      width: 90% !important;
+      width: 100% !important;
       height:150px !important;
       padding: 4px;
       margin: 0 auto;
@@ -993,23 +996,19 @@ body {
 }
 
 @media (max-width: 355px){
-
   .mobile-hero-img{
     height: 400px;
     width: 300px;
-    top:100px !important ;
+    top:50px !important ;
   }
-
   .info-title .invite-box-wrapper{
-    width: 90% !important;
+    width: 100% !important;
     height:150px !important;
     padding: 4px;
     margin: 0 auto;
-    margin-top: 00px;
   }
   .invite-box-wrapper .invite-box{
     padding: 5px;
     font-size: 0.8rem;
   }
-
 }
