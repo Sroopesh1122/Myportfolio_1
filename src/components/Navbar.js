@@ -186,12 +186,13 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <button
+        <a
+          href="#contact"
           type="button"
           className="btn btn-primary hire-btn hidden md:flex"
         >
           Hire Me
-        </button>
+        </a>
 
         {
           <HiOutlineMenuAlt3

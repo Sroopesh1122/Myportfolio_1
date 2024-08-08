@@ -16,6 +16,9 @@ export const authorName = "SHIVUROOPESH";
 export const heroTitle_1 = "FULL STACK";
 export const heroTitle_2 = "WEB DEVELOPER";
 
+
+export const resumeLink ="https://drive.google.com/file/d/18D5qRO5-WArRx8VxtycxBAX7Ksbkkx3M/view?usp=sharing"
+
 export const aboutData = "A self-taught programmer with a passion for learning and exploring new technologies. My expertise spans from front-end development to back-end programming. I am currently expanding my skillset to include JAVA Full Stack . As a dedicated and driven individual , I am constantly seeking out opportunities to grow and improve as a programmer."
 
 export const skillsContent = [{
