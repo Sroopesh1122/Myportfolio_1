@@ -25,6 +25,8 @@ const ProjectCard = ({ data }) => {
       <div className="project-card-footer">
         {data.demo ? <a href={data.demo} target="_blank" rel="noopener noreferrer" className="project-card-btn">Demo</a> : null}
         {data.git ? <a href={data.git} target="_blank" rel="noopener noreferrer" className="project-card-btn">Code</a> : null}
+        {data.backend_git ? <a href={data.backend_git} target="_blank" rel="noopener noreferrer" className="project-card-btn">Backend Code</a> : null}
+        {data.frontend_git ? <a href={data.frontend_git} target="_blank" rel="noopener noreferrer" className="project-card-btn">Frontend Code</a> : null}
       </div>
     </div>
   );
