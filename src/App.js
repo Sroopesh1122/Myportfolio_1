@@ -68,7 +68,7 @@ const App = () => {
   return (
     <DataContext.Provider value={{ selectedMenu, handleMenuClick }}>
       <Navbar />
-      <div className='main custom-scrollbar'>
+      <div className='main md:custom-scrollbar'>
         <div ref={sectionRefs.hero} id="hero">
           <HeroPage />
         </div>

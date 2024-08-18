@@ -323,7 +323,7 @@ body {
 
 .about_page
 {
-  @apply section-width section-height py-10 pt-[10vh]
+  @apply section-width section-height py-10 ;
 }
 
 .about-title {
